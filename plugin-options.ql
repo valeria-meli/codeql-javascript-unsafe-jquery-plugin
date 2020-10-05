@@ -5,5 +5,4 @@ where read = jquery().getAPropertyRead()
     and read.getPropertyName() = "fn"
     and read.getAPropertySource() = plugin
     and options = plugin.getLastParameter()
-select plugin
-
+select plugin, options
